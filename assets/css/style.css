@@ -69,13 +69,12 @@ body {
 /* carousel content */
 .carousel-caption {
 	position: absolute;
-	top: 54%;
-	transform: translateY(-50%);
-	text-transform: uppercase;
+	top: 45%;
+	transform: translateY(-50%); 
 }
 
 .bg-custom {
-	background-color: rgba(0, 0, 0, .4);
+	background-color: rgba(17, 17, 17, 0.4);
 	color: white;
 	border-radius: 1rem;
 }
@@ -91,7 +90,8 @@ body {
 
 .carousel-caption h3{
 	font-size:2.2rem;
-	text-shadow: .1rem .1rem .2rem rgba(0, 0, 0, 1); ;
+	text-shadow: .1rem .1rem .2rem rgb(207, 75, 75); ;
+	text-transform: uppercase;
 }
 
 .btn-lg {
